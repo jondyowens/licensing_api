@@ -1,0 +1,1 @@
+void generate_hardware_hash();

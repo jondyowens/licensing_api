@@ -8,3 +8,4 @@
 #endif
 
 licensing_api const WCHAR* generate_hardware_hash();
+licensing_api const char* checkout_key(const WCHAR* hash);

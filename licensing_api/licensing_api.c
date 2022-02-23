@@ -21,4 +21,5 @@ const char* checkout_key(const WCHAR* hash)
     CURL *curl = curl_easy_init();
     curl_easy_setopt(curl, CURLOPT_URL, "localhost:8080/checkout");
     curl_easy_perform(curl);
+    return "checkout_key called successfully";
 }
